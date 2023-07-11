@@ -1,0 +1,274 @@
+*{  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: rgba(175, 175, 175, 0.705);
+}
+body::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0px;
+    position: absolute;
+    background: url('/static/back3.webp') ;
+    opacity: 0.9;
+    }
+nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    font-size: 1.2rem;
+    /* margin: 3rem; */
+    /* padding: 0.6rem; */
+}
+
+nav ul{
+    margin:10px;
+    /* padding: 8px; */
+    margin-left: 20px;
+    display: flex;
+}
+
+
+nav ul li{ 
+    list-style: none;
+    font-size: 1.0rem;
+}
+
+
+
+nav::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: rgb(255, 243, 243);
+    border-radius: 80px solid white;
+}
+
+/* nav{
+    background-color:black;
+} */
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding:1rem 1rem
+    
+    
+    
+
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.container{
+    color: white;
+    /* border: .5rem solid rgb(243, 234, 234); */
+    height: 31.9rem;
+    width: 76rem;
+    margin: 1rem;
+    /* background: url('/static/background 2.jpg') no-repeat center center; */
+    
+}
+/* h1{
+    text-align: center;
+    color: black;
+} */
+
+h2{
+    text-align: center;
+    font-size: 45px;
+    font-family: cursive;
+    color: solid rgba(0, 0, 0, 0.63);
+}
+h5{
+    margin: 250px;
+    height: -700px;
+    margin-left: 600px;
+    font-size: 2.4rem;
+     margin-bottom: 2300px; 
+     margin-bottom: 300px; 
+ } 
+#abhi img{
+    height: 20%;
+    width: 20%;
+    margin: 20px;
+    padding: 80px;
+    margin-left: 90px;
+}
+#abhi2 img{
+    height: 20%;
+    width: 20%;
+    margin-left: 500px;
+    margin-top: -100%;
+    margin-bottom: 110px;
+
+}
+
+#abhi3 img{
+    height: 20%;
+    width: 20%;
+    margin-left: 800px;
+    margin-top: -100%;
+    margin-bottom: 140px;
+
+}
+#abhi4 img{
+    height: 20%;
+    width: 20%;
+    margin: 20px;
+    padding: 80px;
+    margin-left: 90px;
+    margin-bottom: 240px;
+}
+#abhi5 img{
+    height: 20%;
+    width: 20%;
+    margin-left: 500px;
+    margin-top: -100%;
+    margin-bottom: 340px;
+
+}
+
+#abhi6 img{
+    height: 20%;
+    width: 20%;
+    margin-left: 800px;
+    margin-top: -100%;
+    margin-bottom: 370px;
+
+}
+
+.container h1{
+    margin-top: 120px;
+    text-align: center;
+    color:rgb(25, 25, 192);
+    font-size: 3.2rem;
+    font-family: 'Baloo Bhai', cursive;
+    background-repeat: inherit;
+    background-color: transparent;
+    -webkit-text-stroke:0.2vw #6b6161 ;
+    text-transform: uppercase;
+    animation-timing-function: 2sec ;
+    animation: text_reveal 7.5s ease forwards infinite;
+    animation-delay: 2.5s;
+    /* opacity: 0.6; */
+}
+
+h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+color: aqua;
+-webkit-text-stroke:0.4vw #141313 ;
+/* border-right: 0.2px solid aqua; */
+overflow: hidden;
+animation: animate 6s linear infinite;
+}
+.container p{
+    animation: text_reveal ren 6.5s ease forwards;
+    animation-delay: 1.5s;
+    color: hsla(308, 100%, 54%, 0.918);
+    font-size: 2.2rem;
+    font-family: 'Baloo Bhai', cursive;
+    /* color: rgba(49, 112, 247, 0.76); */
+}
+
+@keyframes animate{
+0%, 10%,100%{
+    width: 0;
+}
+70%, 90%{
+    width: 100%;
+}
+} 
+
+
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0%;
+    }
+    100%{
+        width: 0%;
+        left: 100%;
+    }
+}
+
+@keyframes text_reveal{
+    10%{
+
+        font-size: 3.3rem;
+        color: purple;
+    }
+    40%{
+        font-size: 4.2rem;
+        color: rgba(25, 9, 248, 0.938);
+    }
+    60%{
+        font-size: 4.4rem;
+        color: rgb(29, 138, 29);
+    }
+    100%{
+        font-size: 3.2rem;
+        color: rgba(25, 40, 248, 0.938);
+    }
+}
+
+
+
+
+
+input,textarea{
+    display: block;
+    margin : 1rem auto;
+    padding: 0.3rem;
+    width: 60%;
+    outline: none;
+    border: .2rem solid black;
+    border-radius: .4rem;
+}
+.btn{
+margin: 1rem auto;
+display: block;
+padding: .5rem .5rem;
+background: grey;
+cursor: pointer;
+}
+.top{
+    text-align: right;
+    justify-content: right;
+}
+.top img{
+    height:2rem;
+    width: 4rem;
+    margin-right: 38rem;
+    /* margin: 0.4rem; */
+    padding: 1rem;
+}
+.container input{
+    height: 2rem
+}
+li a{
+    color: antiquewhite;
+} 
