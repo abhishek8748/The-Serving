@@ -235,16 +235,16 @@ footer{
 .container h1{
     margin-top: 120px;
     text-align: center;
-    color:rgb(245, 131, 188);
+    color:rgb(12, 231, 247);
     font-size: 3.2rem;
     font-family: 'Baloo Bhai', cursive;
     background-repeat: inherit;
     background-color: transparent;
     -webkit-text-stroke:0.2vw #6b6161 ;
     text-transform: uppercase;
-    animation-timing-function: 2sec ;
-    animation: text_reveal 7.5s ease forwards infinite;
-    animation-delay: 2.5s;
+    /* animation-timing-function: 2sec ; */
+    /* animation: text_reveal 7.5s ease forwards infinite; */
+    /* animation-delay: 2.5s; */
    
 }
 
@@ -259,7 +259,7 @@ color: aqua;
 -webkit-text-stroke:0.4vw #141313 ;
 
 overflow: hidden;
-animation: animate 6s linear infinite;
+/* animation: animate 6s linear infinite; */
 }
 .container p{
     animation: text_reveal ren 6.5s ease forwards;
