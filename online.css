@@ -242,9 +242,9 @@ footer{
     background-color: transparent;
     -webkit-text-stroke:0.2vw #6b6161 ;
     text-transform: uppercase;
-    /* animation-timing-function: 2sec ; */
+    animation-timing-function: 2sec ;
     /* animation: text_reveal 7.5s ease forwards infinite; */
-    /* animation-delay: 2.5s; */
+    animation-delay: 2.5s;
    
 }
 
@@ -259,7 +259,7 @@ color: aqua;
 -webkit-text-stroke:0.4vw #141313 ;
 
 overflow: hidden;
-/* animation: animate 6s linear infinite; */
+animation: animate 6s linear infinite;
 }
 .container p{
     animation: text_reveal ren 6.5s ease forwards;
