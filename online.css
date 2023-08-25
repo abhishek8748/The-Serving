@@ -84,7 +84,8 @@ a{
     
 }
 .container p{
-font-family: serif;
+/* font-family: serif; */
+    font-family:lora;
 }
 
 
